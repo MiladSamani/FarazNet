@@ -1314,9 +1314,16 @@ display: block;
 
 
 /*index2 */
-
+#shadowSection{
+    box-shadow: 0 10px 10px #80808054;
+}
+#shadowRow{
+    width: 90%;
+    margin: 0 auto;
+}
 #mainOne{
     background-color: #ededef; 
+    
 }
 
 #mainH3{
@@ -1353,7 +1360,8 @@ display: block;
       margin-left: 50px;
 }
 #mainThree{
-    background-color: #ededef;
+    background-color: #ffffff;
+    
 }
 #mainThreeH3{
     text-align: center; 
@@ -1419,6 +1427,27 @@ display: block;
 }
 
 .product h1 {
+    text-align: right;
+    font-size: 16px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.productAbout {
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ededef;
+    border-radius: 10px;
+    padding: 50px 0;
+    padding-top: 10px;
+    margin-bottom: -254px;
+    position: relative;
+    z-index: 1;
+}
+
+.productAbout h1 {
     text-align: right;
     font-size: 16px;
     margin-right: 60px;
@@ -1546,6 +1575,10 @@ display: block;
     background-color: #ededef;
 }
 
+.footerAbout {
+    background-color: #ffffff;
+}
+
 .contact2 {
     width: 50%;
     padding: 20px;
@@ -1611,6 +1644,23 @@ display: block;
 }
 
 @media screen and (min-width:992px) {
+    #productFooterr {
+        display: none;
+    }
+}
+
+@media screen and (max-width:776px) {
+    #productFooterr {
+        margin-bottom: 288px !important;
+    }
+}
+
+@media screen and (max-width:420px) {
+    #productFooterr {
+        margin-bottom: 504px !important;
+    }
+}
+@media screen and (min-width:992px) {
     #footer2 {
         display: none;
     }
@@ -1627,6 +1677,453 @@ display: block;
         width: 320px;
     }
 }
+#video{
+    margin-bottom: 20px !important;
+}
 #dakheliMainOne{
     padding-top: 20px;
+}
+
+/*---------------------------- bank accounting */
+
+ #tejaratLogo{
+    margin-right: 120px;
+} 
+#oneMainBank{
+    margin-top: 30px;
+}
+#headerBank{
+    font-weight: 800;
+    color: #ec5e00;
+}
+#headerBank6{
+    font-weight: 600;
+    font-size: 15px;
+}
+#backSecBank{
+    background-color:#ededef;
+    padding-bottom: 100px;
+}
+#numberBank{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 40px;
+font-weight:800
+}
+
+
+#twoMainBank{
+    margin-top: 30px; margin-right: -120px;    
+}
+
+@media screen and (min-width:1400px) {
+    #tejaratLogo {
+        margin-right: 160px !important;
+    }
+    #twoMainBank{
+        margin-right: -160px !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #tejaratImage {
+        text-align: center !important;
+    }
+    #oneMainBank{
+        text-align: center !important;
+    }
+    #border-bank {
+        text-align: center !important;
+    }
+    #twoMainBank{
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #tejaratLogo {
+        margin-right: 100px;
+    }
+    #twoMainBank{
+        margin-right: -100px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #tejaratLogo {
+        margin-right: 0px;
+        text-align: center;
+    }
+    #twoMainBank{
+        margin-right: 0px;
+        text-align: center;
+    }
+}
+#aboutMainOne{
+    background-color: #ededef;
+   padding-top: 30px;
+}
+#mainOne5{
+    font-weight: 800;
+    color: #ec5e00;
+}
+
+#mainOne6{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+#aboutUsHeader5{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#iconAbout{
+    margin-bottom: 20px;
+    color: #ec5e00;
+}
+#about-icon{
+    text-align: center;
+}
+#iconBio6{
+    text-align: center;
+    font-weight: 800;
+}
+#fetAboutUs{
+    padding-bottom: 70px;
+    box-shadow: 0 10px 10px #80808054;;
+}
+#why{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#headOneAbout{
+    color: #7c9a00;
+}
+#headerFiveAbout3{
+    color: #7c9a00; 
+}
+#headerFiveAboutt{
+    color: #7c9a00 ;
+}
+#headerFiveAbout{
+    color: #7c9a00 ;
+}
+#headerFiveAboutt{
+    font-weight: 700; margin-top: 30px !important ; margin-right: 0 px !important;
+}
+#borderBtm1{
+    border-bottom: 5px dotted #80808036;
+}
+#spanDis{
+    display: inline;
+}
+#spanDis11{
+    display: inline; float: left; margin-left: 90px;
+}
+#headOneAbout{
+    font-weight: 700;
+}
+#bioOneAbout{
+    margin-bottom: 40px; text-align: justify;
+}
+#iconAbout2{
+    margin-right: 110px;
+    color: #ec5e00;
+    margin-top: 10px !important;
+}
+#headerFiveAboutt{
+    margin-right: 0px !important;
+}
+
+#iconAbout22{
+    margin-right: 110px !important;
+    color: #ec5e00;
+    margin-top: 55px !important;
+}
+#border-dot{
+    border-right: 5px dotted #80808036;
+    border-bottom: 5px dotted #80808036;
+}
+
+#border-dot3{
+    border-top: 5px dotted #80808036;
+}
+#border-dot4{
+    margin-top: 2px;
+    border-right: 5px dotted #80808036;
+}
+#iconAbout3{
+    margin-right: 50px;
+    color: #ec5e00; 
+    margin-top: 10px;
+}
+
+#border-dot2{
+    margin-left : 150px;
+    display: inline; float: left;
+}
+
+@media screen and (min-width:992px) {
+    #border-bank {
+        border-right: dotted;
+        border-right-color: #ec5e003d;
+    }
+@media screen and (min-width:1400px) {
+    #headerFiveAboutt{
+        margin-right: 0px !important;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px)   {
+    #iconAbout2 {
+        margin-right: 70px !important;
+    color: #ec5e00;
+    margin-top: 10px !important;
+    }
+    #headerFiveAbout {
+        margin-top: 0px !important;
+        font-weight: 700;
+    }
+    #iconAbout3{
+        margin-right: 25px !important;
+    color: #ec5e00; 
+    margin-top: 10px;
+    }
+    #iconAbout22{
+        margin-right: 70px !important;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px)   {
+    #iconAbout2 {
+    color: #ec5e00;
+    margin-top: 10px;
+    margin-right: 0px !important;
+    }
+    #iconAbout3{
+        margin-right: 0px !important;
+    color: #ec5e00; 
+    margin-top: 10px;
+    }
+    #headerFiveAbout{
+        margin-top: -90px !important;
+        margin-right: 20px !important;
+        font-weight: 700;
+    }
+    #headerSixAbout{
+        margin-right: 20px !important; 
+        text-align: justify;
+    }
+    
+#headerFiveAboutt{
+    margin-right: 20px !important;
+}
+#iconAbout22 {
+     margin-right: 0px !important; 
+    color: #ec5e00;
+    margin-top: 55px !important;
+}
+
+}
+#headerFiveAbout3{
+    font-weight: 700; margin-top: 30px;
+}
+#BioFiveAbout3{
+    margin-bottom: 40px; text-align: justify;
+}
+#iconAbout22{
+    margin-right: 0px ;
+}
+
+}
+@media screen and (min-width:767px) and (max-width:992px)   {
+#iconAbout2{
+    margin-right: 305px !important;
+}
+#iconAbout22{
+    margin-right: 305px !important;
+}
+#headOneAbout{
+    text-align: center !important;
+    margin-right: 180px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+#bioOneAbout{
+    margin-right: 200px !important;
+    
+}
+#border-dot {
+    border-right: 0px;
+    border-bottom: 0px;
+}
+#borderBtm1{
+    border-bottom: 0px;
+}
+#headerFiveAbout{
+    
+    text-align: center !important;
+    margin-right: 300px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+#iconAbout3{
+    margin-right: 315px;
+}
+#headerSixAbout{
+    margin-right: 270px;
+}
+
+
+#headerFiveAbout3{
+    margin-right: 400px;
+    margin-bottom: 20px;
+    
+}
+#BioFiveAbout3{
+    margin-right: 200px;
+}
+
+#border-dot4{
+    border-right: 0px;
+} 
+#headerFiveAboutt{
+    margin-top: 0 !important;
+    margin-right: 467px !important;
+    margin-bottom: 20px !important;
+}
+}
+@media screen and (min-width:500px) and (max-width:767px)   {
+    #iconAbout2{
+        margin-right: 200px;
+    }
+    #headOneAbout{
+        margin-right: 300px;
+    }
+    #bioOneAbout{
+        margin-right: 200px;
+    }
+    #border-dot {
+        border-right: 0px;
+        border-bottom: 0px;
+    }
+#borderBtm1 {
+    border-bottom: 0px;
+}
+#headerFiveAbout{
+    margin-right: 345px;
+    font-weight: 700;
+}
+#iconAbout3 {
+    margin-right: 190px;
+
+}
+#headerSixAbout{
+    margin-right: 300px;
+    text-align: justify;
+}
+#headerFiveAbout3{
+    margin-right: 300px;
+    margin-top: 0px !important;
+}
+#BioFiveAbout3{
+    margin-right: 200px;
+}
+#border-dot4{
+    border-right: 0px;
+}
+#iconAbout3{
+    margin-top: 0px;
+}
+#headerFiveAboutt{
+    margin-right: 370px !important;
+    margin-top: 0px !important;
+}
+#iconAbout22{
+    margin-right: 205px !important;
+}
+#iconAbout3{
+    margin-top: 0px !important;
+    margin-right: 214px !important;
+}
+#headerFiveAboutt{
+    margin-top: 0px !important;
+}
+}
+#headerFiveAbout{
+    font-weight: 700;
+}
+@media screen and (max-width:500px) {
+#bioOneAbout{
+    margin-right: 184px !important;
+}
+#iconAbout2{
+    margin-right: 150px !important;
+}
+#borderBtm1{
+    border-bottom: 0px;
+}
+#iconAbout3{
+    margin-right: 150px;
+}
+#headOneAbout{
+    margin-right: 250px;
+}
+#headerFiveAbout{
+    margin-right: 281px !important;
+}
+#headerSixAbout{
+    margin-right: 282px !important;
+    text-align: justify;
+}
+#border-dot {
+    border-right: 0px dotted grey;
+    border-bottom: 0px dotted grey;
+}
+#headerFiveAbout3{
+    margin-right: 250px !important;
+    margin-top: 0px;
+
+}
+#BioFiveAbout3{
+    margin-right: 200px !important;
+}
+#headerFiveAboutt{
+margin-right: 300px !important;
+margin-top: 0px !important;
+}
+#border-dot4 {
+    margin-top: 0px;
+    border-right: 0px dotted grey;
+}
+
+#iconAbout22{
+    margin-right: 150px !important;
+}
+}
+#pProductFooter{
+    font-weight: 700;
+}
+#pProduct1{
+    font-weight: 700;
+    margin-right: 20px !important;
+    margin-top: 17px;
+}
+#productFooter{
+    margin-right: 65px !important;
+    margin-top: 0px !important;
+    text-align: center;
+    
+}
+#productFooterr{
+    margin-bottom: 150px;
+}
+#floatRightAbout{
+    display: inline; float: right;
 }

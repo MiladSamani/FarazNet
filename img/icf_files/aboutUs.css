@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:'IranSansNormal';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../fonts/iran_sans_normal.eot?#iefix) format("embedded-opentype") , url(../fonts/iran_sans_normal.woff) format("woff") , url(../fonts/iran_sans_normal.ttf) format("truetype") , url(../fonts/iran_sans_normal.svg#iran_sans_normal) format("svg")
+}
+@font-face {
+    font-family:'IranSansUltraLight';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../fonts/iran_sans_ultra_light.eot?#iefix) format("embedded-opentype") , url(../fonts/iran_sans_ultra_light.woff) format("woff") , url(../fonts/iran_sans_ultra_light.ttf) format("truetype") , url(../fonts/iran_sans_ultra_light.svg#iran_sans_normalregular) format("svg")
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: IRANSans-web;
+    color:#4e4e4e;
+    line-height: 1.8;
+}
+
+
+h1{
+    font-size: 36px;
+    color:#fff;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 16px;
+    color: #787878;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h4{
+    font-size: 16px;
+}
+.margin-top-50 {
+    margin-top: 50px !important;
+}
+.margin-top-20 {
+    margin-top: 20px !important;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px !important;
+}
+.margin-bottom-40 {
+    margin-bottom: 40px !important;
+}
+.ribbon-light-v2 .section-title h1 {
+    color: #ca2127;
+    text-align: center;
+    font-size: 24px;
+}
+.ribbon-light-v2.main-title .section-title h2 {
+    color: #444;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+    line-height:30px;
+}
+.ribbon-gray {
+    background-color: #f6f6f6;
+}
+.ribbon-gray .section-footer, .ribbon-gray .section-body {
+    text-align: center;
+}
+.ribbon-gray .section-title h3 {
+    color: #444;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.ribbon-gray .section-body h3 {
+    color: #ca2127;
+}
+.ribbon-light .section-footer, .ribbon-light .section-body {
+    text-align: center;
+}
+.ribbon-light {
+    background: #fff url("../images/cover-bg-1.jpg") no-repeat scroll center top / cover;
+}
+.ribbon-light .section-title h3 {
+    color: #ca2127;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.ribbon-light .section-body h3 {
+    color: #ca2127;
+}
+.ribbon-light .fa {
+    color: #ca2127;
+}
+.my-cent{
+    margin-right: 25%;
+}
