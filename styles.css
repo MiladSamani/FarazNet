@@ -13,6 +13,10 @@ add font
 /*--------------------------------------------------------------
  Header Section
  --------------------------------------------------------------*/
+
+
+
+
  .navbar .nav-item .dropdown-menu{ 
      display: none;
      }
@@ -84,6 +88,25 @@ font-size: 13px;
     color: black !important;
     
 }
+
+#navLinkColor4{
+    padding: 10px;
+    color: black !important;
+    
+}
+
+@media screen and (max-width:992px) {
+    #navLinkColor3{
+display: none !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #navLinkColor4{
+display: none !important;
+    }
+}
+
 #home{
     padding: 10px;
 }
@@ -1455,6 +1478,27 @@ display: block;
     font-weight: bold;
 }
 
+.productAboutA {
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 0;
+    padding-top: 10px;
+    margin-bottom: -254px;
+    position: relative;
+    z-index: 1;
+}
+
+.productAboutA h1 {
+    text-align: right;
+    font-size: 16px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 .image {
     text-align: center;
     margin-bottom: 50px;
@@ -1577,6 +1621,10 @@ display: block;
 
 .footerAbout {
     background-color: #ffffff;
+}
+
+.footerAboutA {
+    background-color: #ededef;
 }
 
 .contact2 {
@@ -1769,7 +1817,7 @@ font-weight:800
 }
 
 #mainOne6{
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
     line-height: 30px;
     font-weight: 800;
@@ -1819,7 +1867,7 @@ font-weight:800
     font-weight: 700; margin-top: 30px !important ; margin-right: 0 px !important;
 }
 #borderBtm1{
-    border-bottom: 5px dotted #80808036;
+    border-bottom: 2px dashed #80808036;
 }
 #spanDis{
     display: inline;
@@ -1848,16 +1896,16 @@ font-weight:800
     margin-top: 55px !important;
 }
 #border-dot{
-    border-right: 5px dotted #80808036;
-    border-bottom: 5px dotted #80808036;
+    border-right: 2px dashed #80808036;
+    border-bottom: 2px dashed #80808036;
 }
 
 #border-dot3{
-    border-top: 5px dotted #80808036;
+    border-top: 2px dashed #80808036;
 }
 #border-dot4{
     margin-top: 2px;
-    border-right: 5px dotted #80808036;
+    border-right: 2px dashed #80808036;
 }
 #iconAbout3{
     margin-right: 50px;
@@ -2064,38 +2112,42 @@ font-weight:800
     margin-right: 184px !important;
 }
 #iconAbout2{
-    margin-right: 150px !important;
+    margin-right: 115px !important;
 }
 #borderBtm1{
     border-bottom: 0px;
 }
 #iconAbout3{
-    margin-right: 150px;
+    margin-right: 125px;
 }
 #headOneAbout{
-    margin-right: 250px;
+    margin-right: 220px;
 }
 #headerFiveAbout{
     margin-right: 281px !important;
 }
 #headerSixAbout{
-    margin-right: 282px !important;
+    margin-right: 222px !important;
     text-align: justify;
+    width: 50% !important;
 }
 #border-dot {
     border-right: 0px dotted grey;
     border-bottom: 0px dotted grey;
 }
 #headerFiveAbout3{
-    margin-right: 250px !important;
+    margin-right: 212px !important;
     margin-top: 0px;
 
 }
 #BioFiveAbout3{
-    margin-right: 200px !important;
+    margin-right: 160px !important;
+    text-align: justify !important;
+    width: 50%;
+
 }
 #headerFiveAboutt{
-margin-right: 300px !important;
+margin-right: 276px !important;
 margin-top: 0px !important;
 }
 #border-dot4 {
@@ -2104,7 +2156,7 @@ margin-top: 0px !important;
 }
 
 #iconAbout22{
-    margin-right: 150px !important;
+    margin-right: 115px !important;
 }
 }
 #pProductFooter{
