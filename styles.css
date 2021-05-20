@@ -27,6 +27,11 @@ width: 100%;
 }
 
 
+#menu1{
+    box-shadow: 0 10px 10px #80808054;
+    margin-bottom: 10px;
+
+}
 #logo{
     width: 170px;
 }
@@ -1427,7 +1432,6 @@ display: block;
 
 
 
-
 /*footer */
 
 .foo {
@@ -1553,7 +1557,7 @@ display: block;
     font-size: 13px;
     padding-right: 30px;
     font-weight: bold;
-    color: #615d5d;
+    color: rgb(31, 31, 31);;
 }
 
 .social {
@@ -1564,31 +1568,49 @@ display: block;
     padding-bottom: 20px;
 }
 #us{
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 0px;
+    text-align: center;
+   margin-bottom: 10px;
 }
 #insta{
     text-decoration: none;
-    color:  rgb(130 123 123 ); 
+    color:  rgb(31, 31, 31); 
+    font-size: 27px;
 }
 #cntct{
     display: inline;
     float: right;
      padding-right:2px;
-      color:  #414042;
+      color: rgb(31, 31, 31);
       font-size: 14px;
+}
+#mgB{
+    color: rgb(31, 31, 31);
+    font-size: 12px;
 }
 #gre{
     color :#7c9a00;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 16px;
+}
+#gre1{
+    font-weight: 600;
+    font-size: 15.5px;
 }
 #gre2{
-    font-weight: bold;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 15.5px;
+  
     
 }
 #ti{
     padding-top: 20px;
-     padding-bottom: 20px;
+     font-weight: 600;
+     padding-right: 8px;
+    font-size: 14.5px;
+    text-align: right;
 }
 #re{
     color: #ec5e00;
@@ -1621,6 +1643,7 @@ display: block;
 
 .footerAbout {
     background-color: #ffffff;
+    margin-top:30px;
 }
 
 .footerAboutA {
@@ -1647,13 +1670,13 @@ display: block;
     font-size: 13px;
     padding-right: 30px;
     font-weight: bold;
-    color: #615d5d;
+    color: rgb(31, 31, 31);
 }
 #contact22{
     display: inline;
     float: right;
      padding-right:2px;
-      color:  rgb(130 123 123 );
+      color: rgb(130 123 123);
 }
 
 #gree{
@@ -1817,7 +1840,7 @@ font-weight:800
 }
 
 #mainOne6{
-    font-size: 19px;
+    font-size: 17px;
     text-align: justify;
     line-height: 30px;
     font-weight: 800;
@@ -1883,7 +1906,7 @@ font-weight:800
 }
 #iconAbout2{
     margin-right: 110px;
-    color: #ec5e00;
+    color: #000000;
     margin-top: 10px !important;
 }
 #headerFiveAboutt{
@@ -1892,7 +1915,7 @@ font-weight:800
 
 #iconAbout22{
     margin-right: 110px !important;
-    color: #ec5e00;
+    color: #000000;
     margin-top: 55px !important;
 }
 #border-dot{
@@ -1909,7 +1932,7 @@ font-weight:800
 }
 #iconAbout3{
     margin-right: 50px;
-    color: #ec5e00; 
+    color: #000000; 
     margin-top: 10px;
 }
 
@@ -1931,7 +1954,7 @@ font-weight:800
 @media screen and (min-width:1200px) and (max-width:1400px)   {
     #iconAbout2 {
         margin-right: 70px !important;
-    color: #ec5e00;
+    color: #000000;
     margin-top: 10px !important;
     }
     #headerFiveAbout {
@@ -1940,7 +1963,7 @@ font-weight:800
     }
     #iconAbout3{
         margin-right: 25px !important;
-    color: #ec5e00; 
+    color: #000000; 
     margin-top: 10px;
     }
     #iconAbout22{
@@ -1950,13 +1973,13 @@ font-weight:800
 
 @media screen and (min-width:992px) and (max-width:1200px)   {
     #iconAbout2 {
-    color: #ec5e00;
+    color: #000000;
     margin-top: 10px;
     margin-right: 0px !important;
     }
     #iconAbout3{
         margin-right: 0px !important;
-    color: #ec5e00; 
+    color: #000000; 
     margin-top: 10px;
     }
     #headerFiveAbout{
@@ -1974,7 +1997,7 @@ font-weight:800
 }
 #iconAbout22 {
      margin-right: 0px !important; 
-    color: #ec5e00;
+    color: #000000;
     margin-top: 55px !important;
 }
 
