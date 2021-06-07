@@ -131,6 +131,15 @@ display: none !important;
    }
 }
 
+@media screen and (max-width:572px) {
+    #navLinkColor3{
+display: none !important;
+    }
+   #menu111{
+       display: none;
+   }
+}
+
 @media screen and (min-width:573px) {
     #navLinkColor3{
 display: none !important;
